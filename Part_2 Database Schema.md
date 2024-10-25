@@ -33,3 +33,26 @@ CREATE TABLE Demographics (
 );
 
 ```
+
+
+## Sample Data
+
+```
+INSERT INTO Students (Student_ID, Name, Gender, Age, Socioeconomic_Status, Enrollment_Status) VALUES
+(1, 'John Doe', 'Male', 16, 'Low', 'Dropped Out'),
+(2, 'Jane Smith', 'Female', 15, 'Medium', 'Enrolled'),
+(3, 'Alice Johnson', 'Female', 17, 'High', 'Dropped Out');
+
+INSERT INTO Schools (School_ID, School_Name, Location, Type) VALUES
+(1, 'Central High', 'City Center', 'Public'),
+(2, 'Eastside Academy', 'East End', 'Private');
+
+INSERT INTO Dropout_Records (Record_ID, Student_ID, School_ID, Dropout_Reason, Dropout_Date) VALUES
+(1, 1, 1, 'Family Issues', '2023-06-15'),
+(2, 3, 2, 'Financial Constraints', '2023-07-01');
+
+INSERT INTO Demographics (Demographic_ID, Gender, Socioeconomic_Status, Region) VALUES
+(1, 'Male', 'Low', 'Urban'),
+(2, 'Female', 'Medium', 'Suburban');
+
+```
