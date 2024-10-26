@@ -49,4 +49,3 @@ Select a Sustainable Development Goal (SDG) that resonates with you and develop 
 - Excel workbook with data analysis and dashboard
 - Integration documentation
 - Pitch deck presentation (Provide the link e.g Canva or Gamma in your documentation)
-
